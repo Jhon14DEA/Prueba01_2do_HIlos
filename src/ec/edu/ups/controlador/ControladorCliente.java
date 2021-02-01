@@ -27,7 +27,7 @@ public class ControladorCliente extends Controlador<Cliente>{
         
     }
     
-    public void irAlCajero(Cliente cliente) {
+    public void procesosCleinte(Cliente cliente) {
         
         
     }

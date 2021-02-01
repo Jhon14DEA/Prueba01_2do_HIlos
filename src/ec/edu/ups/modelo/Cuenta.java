@@ -15,6 +15,31 @@ public class Cuenta {
     private int saldo;
     private int saldoInicial;
     private VentanaPrincipal ventanaPrincipal;
+    private int saldoFinal;
+
+    public int getSaldoInicial() {
+        return saldoInicial;
+    }
+
+    public void setSaldoInicial(int saldoInicial) {
+        this.saldoInicial = saldoInicial;
+    }
+
+    public VentanaPrincipal getVentanaPrincipal() {
+        return ventanaPrincipal;
+    }
+
+    public void setVentanaPrincipal(VentanaPrincipal ventanaPrincipal) {
+        this.ventanaPrincipal = ventanaPrincipal;
+    }
+
+    public int getSaldoFinal() {
+        return saldoFinal;
+    }
+
+    public void setSaldoFinal(int saldoFinal) {
+        this.saldoFinal = saldoFinal;
+    }
 
     public Cuenta(int saldo){
         this.saldoInicial=saldo;
@@ -34,7 +59,10 @@ public class Cuenta {
 
     @Override
     public String toString() {
-        return "Cuenta{" + "saldo=" + saldo + ", saldoInicial=" + saldoInicial + '}';
+        return "Cuenta{" + "saldo=" + saldo + ", saldoInicial=" + saldoInicial
+                + ", ventanaPrincipal=" + ventanaPrincipal + ", saldoFinal=" + saldoFinal + '}';
     }
+
+   
     
 }

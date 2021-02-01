@@ -5,7 +5,7 @@
  */
 package ec.edu.ups.vista;
 
-import ec.edu.ups.controlador.Controlador;
+import ec.edu.ups.controlador.ControladorGenerico;
 import ec.edu.ups.controlador.ControladorCliente;
 import ec.edu.ups.modelo.Cliente;
 import ec.edu.ups.modelo.Cuenta;

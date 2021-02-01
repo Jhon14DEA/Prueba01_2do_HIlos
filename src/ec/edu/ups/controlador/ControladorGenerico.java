@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author ASUS
  */
-public abstract class Controlador <T>{
+public abstract class ControladorGenerico <T>{
     private List<T> listaGenerica;
     
     /*
@@ -22,24 +22,24 @@ public abstract class Controlador <T>{
     private List<Cliente> fueraDeFila;
     private Random random;
     
-    private Controlador() {
+    private ControladorGenerico() {
         clientes = new ArrayList<>();
         enLaFila = new ArrayList<>();
         fueraDeFila = new ArrayList<>();
         random = new Random();
     }
     
-    public static Controlador getInstance() {
+    public static ControladorGenerico getInstance() {
         return ControladorHolder.INSTANCE;
     }
     
     private static class ControladorHolder {
-        private static final Controlador INSTANCE = new Controlador();
+        private static final ControladorGenerico INSTANCE = new ControladorGenerico();
     }
     
     */
     
-    public Controlador() {
+    public ControladorGenerico() {
         listaGenerica = new ArrayList<>();
     }
     

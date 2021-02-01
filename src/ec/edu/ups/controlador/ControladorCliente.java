@@ -11,7 +11,7 @@ import ec.edu.ups.modelo.Cliente;
  *
  * @author ASUS
  */
-public class ControladorCliente extends Controlador<Cliente>{
+public class ControladorCliente extends ControladorGenerico<Cliente>{
  /*
      private List<Cliente> clientes;
     private List<Cliente> enLaFila;

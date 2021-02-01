@@ -47,7 +47,6 @@ public class Cuenta {
     }
     public synchronized void hacerMovimiento(int cantidad){
         this.saldo = this.saldo+cantidad;
-        //ventanaPrincipal.cargarDatos();
     }
     public boolean esSimulacionCorrecta(){
         if (this.saldo==this.saldoInicial) return true;
